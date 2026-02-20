@@ -1,4 +1,4 @@
-package com.btpns.jump.ipc;
+package com.mrliputo.jumpappbridge.ipc;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -29,7 +29,7 @@ public class JumpAuthClient {
 
     public Config(String hostPackage, @Nullable String hostServiceClass, long timeoutMs) {
       this.hostPackage = hostPackage;
-      this.hostServiceClass = hostServiceClass != null ? hostServiceClass : "com.btpns.jump.JumpAuthService";
+      this.hostServiceClass = hostServiceClass != null ? hostServiceClass : "com.mrliputo.jumpappbridge.JumpAuthService";
       this.timeoutMs = timeoutMs;
     }
   }
@@ -132,4 +132,3 @@ public class JumpAuthClient {
     }
   }
 }
-

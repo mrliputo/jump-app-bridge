@@ -1,12 +1,12 @@
-package com.btpns.jump;
+package com.mrliputo.jumpappbridge;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 
-import com.btpns.jump.ipc.AuthContext;
-import com.btpns.jump.ipc.JumpAuthClient;
-import com.btpns.jump.ipc.JumpAuthException;
+import com.mrliputo.jumpappbridge.ipc.AuthContext;
+import com.mrliputo.jumpappbridge.ipc.JumpAuthClient;
+import com.mrliputo.jumpappbridge.ipc.JumpAuthException;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -111,4 +111,3 @@ public class JumpAuthBridgeModule extends ReactContextBaseJavaModule {
     return map;
   }
 }
-

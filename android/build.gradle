@@ -31,7 +31,7 @@ android {
     targetCompatibility JavaVersion.VERSION_17
   }
 
-  namespace 'com.btpns.jump'
+  namespace 'com.mrliputo.jumpappbridge'
 }
 
 repositories {
@@ -42,4 +42,3 @@ repositories {
 dependencies {
   implementation 'com.facebook.react:react-android'
 }
-

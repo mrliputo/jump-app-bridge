@@ -1,3 +1,2 @@
 # Keep AIDL parcelables
--keep class com.btpns.jump.ipc.** { *; }
-
+-keep class com.mrliputo.jumpappbridge.ipc.** { *; }

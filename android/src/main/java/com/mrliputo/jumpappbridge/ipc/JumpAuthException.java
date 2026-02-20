@@ -1,4 +1,4 @@
-package com.btpns.jump.ipc;
+package com.mrliputo.jumpappbridge.ipc;
 
 import androidx.annotation.Nullable;
 
@@ -24,4 +24,3 @@ public class JumpAuthException extends Exception {
     this.code = code;
   }
 }
-

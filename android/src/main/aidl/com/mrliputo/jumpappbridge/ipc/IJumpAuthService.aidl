@@ -1,8 +1,8 @@
-package com.btpns.jump.ipc;
+package com.mrliputo.jumpappbridge.ipc;
 
 import android.os.Bundle;
-import com.btpns.jump.ipc.AuthContext;
-import com.btpns.jump.ipc.IAuthListener;
+import com.mrliputo.jumpappbridge.ipc.AuthContext;
+import com.mrliputo.jumpappbridge.ipc.IAuthListener;
 
 interface IJumpAuthService {
   boolean ping();
@@ -10,4 +10,3 @@ interface IJumpAuthService {
   void registerListener(IAuthListener listener);
   void unregisterListener(IAuthListener listener);
 }
-

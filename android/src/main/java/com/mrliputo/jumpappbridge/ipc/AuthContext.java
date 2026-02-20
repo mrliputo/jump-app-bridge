@@ -1,4 +1,4 @@
-package com.btpns.jump.ipc;
+package com.mrliputo.jumpappbridge.ipc;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -57,4 +57,3 @@ public class AuthContext implements Parcelable {
     }
   };
 }
-

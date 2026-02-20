@@ -1,9 +1,8 @@
-package com.btpns.jump.ipc;
+package com.mrliputo.jumpappbridge.ipc;
 
-import com.btpns.jump.ipc.AuthContext;
+import com.mrliputo.jumpappbridge.ipc.AuthContext;
 
 interface IAuthListener {
   void onAuthChanged(in AuthContext context);
   void onAuthInvalidated(String reason);
 }
-

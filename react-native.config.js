@@ -2,10 +2,9 @@ module.exports = {
   dependency: {
     platforms: {
       android: {
-        packageImportPath: 'import com.btpns.jump.JumpAuthBridgePackage;',
+        packageImportPath: 'import com.mrliputo.jumpappbridge.JumpAuthBridgePackage;',
         packageInstance: 'new JumpAuthBridgePackage()',
       },
     },
   },
 };
-

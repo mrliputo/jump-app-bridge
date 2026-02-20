@@ -1,5 +1,5 @@
 {
-  "name": "@btpns/jump-auth-bridge",
+  "name": "jump-app-bridge",
   "version": "0.1.0",
   "description": "React Native Android library for secure IPC auth context sharing between host and client apps.",
   "main": "dist/index.js",

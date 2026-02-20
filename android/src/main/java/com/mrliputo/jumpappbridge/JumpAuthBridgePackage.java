@@ -1,4 +1,4 @@
-package com.btpns.jump;
+package com.mrliputo.jumpappbridge;
 
 import androidx.annotation.NonNull;
 
@@ -26,4 +26,3 @@ public class JumpAuthBridgePackage implements ReactPackage {
     return Collections.emptyList();
   }
 }
-

@@ -1,5 +1,5 @@
 export type AuthContext = {
-    /** Host package that serves the data (e.g. com.btpns.acquisition) */
+    /** Host package that serves the data (e.g. com.example.host) */
     issuerPackage: string;
     userId: string;
     displayName?: string;
@@ -13,7 +13,7 @@ export type GetAuthContextOptions = {
 };
 export type ConfigureOptions = {
     hostPackage: string;
-    /** Fully qualified service class in host app. Defaults to com.btpns.jump.JumpAuthService */
+    /** Fully qualified service class in host app. Defaults to com.mrliputo.jumpappbridge.JumpAuthService */
     hostServiceClass?: string;
     timeoutMs?: number;
 };
